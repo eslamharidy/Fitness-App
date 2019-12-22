@@ -1,68 +1,75 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/296a403f-24a6-4754-9c51-83f7a21f5f87/deploy-status)](https://app.netlify.com/sites/peaceful-thompson-239251/deploys)
 
-## Available Scripts
+#  🏃 Fitness-App 🏋
+## [🏋Check out the deployed version here!🏋](https://peaceful-thompson-239251.netlify.com/)
+## What this project is about
 
-In the project directory, you can run:
+This isa real world project we have build in group of 4 students. it is a mobile application for fitness workouts and plans to help users track their health,workout and diet plans For more info please checkout: **[Goals for this project](#goals-for-this-project)**
 
-### `npm start`
+## Table of contents:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **[Technologies used](#technologies-used)**
+- **[Goals for this project](#goals-for-this-project)**
+- **[Features built so far overview](#features-built-so-far-overview)**
+- **[My git workflow](#my-git-workflow)**
+- **[My agile workflow](#my-agile-workflow)**
+- **[create-react-app-docs](#create-react-app)**
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Technologies used
 
-### `npm test`
+#### 👀👇 Click links to view some samples in this project 👇👀
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **[react](src/components/Calendar/CalendarContainer.js)**  
+- **[redux](src/store.js)**  
+- **[react materialUI](src/components/Video/Workout.js)**  
+- **[Backend](https://github.com/eslamharidy/Fitness-App-Server)**  
 
-### `npm run build`
+## Goals for this project:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- To Provide user with all workouts needed.
+- To Provide user with an average of calories burining according to his body weight and gender. 
+- To Provide user with diet plan and schedule for his daily/weekly/monthly workout and diet plan. 
+- **[To showcase disciplined git usage](#my-git-workflow)**
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features built so far overview
 
-### `npm run eject`
+#### 👀👇 Click links to view the pull requests 👇👀
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **[Login and signup](src/components/login/Login.js)**
+- **[Profile info and user picture on the dashboard](src/components/dashboard/DashboardContainer.js)**
+- **[Calendar with 3 months workout plan](src/components/Calendar/CalendarContainer.js)**
+- **[Trophy for achievements on workout or program completion](src/components/trophy/Trophy.js)**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## My git workflow
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+In this project We try to use:
 
-## Learn More
+- Good commit messages
+- Well named branches
+- Pull requests with summaries
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you have feedback to improve my git usage: **[please drop me a line!](https://www.linkedin.com/in/eslam-haridy-0b14316a/)** 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Here is my branching model for this project.
 
-### Code Splitting
+```
+master (auto deploys) ______________________
+                       \               /
+development             \_____________/- pull request
+                         \           /
+feature/some-feature      \_commits_/- pull request
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## My agile workflow
 
-### Analyzing the Bundle Size
+We try to maintain a backlog to keep all . That way people can quickly jump in and start helping out. It also displays how We split up our tasks and try to build this project in an iterative and incremental way!
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Create React App
 
-### Advanced Configuration
+This project was scaffolded using the create-react-app cli. 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+**[The standard create-react-app docs can be found in here](./create-react-app-docs.md)**

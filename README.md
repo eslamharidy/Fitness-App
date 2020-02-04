@@ -1,7 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/296a403f-24a6-4754-9c51-83f7a21f5f87/deploy-status)](https://app.netlify.com/sites/peaceful-thompson-239251/deploys)
 
 #  🏃 Fitness-App 🏋
-## [🏋Check out the deployed version here!🏋](https://peaceful-thompson-239251.netlify.com/)
+## [🏋Check out the deployed version here!🏋](https://imptrainer.com/)
 ## What this project is about
 
 This isa real world project we have build in group of 4 students. it is a mobile application for fitness workouts and plans to help users track their health,workout and diet plans For more info please checkout: **[Goals for this project](#goals-for-this-project)**
